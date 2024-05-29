@@ -3,7 +3,7 @@
     }
 
 .corpo-do-site{
-    background-image: linear-gradient(#05253a,#0a436b);
+    background-image: linear-gradient(#05253a,#136aa8);
     border: solid 3px #FBCA03;
 }
 
@@ -24,26 +24,26 @@ width: 20%;
    display: flex;
    justify-content: center;
    color: white;
-   padding: 65px ;
+   padding: 35px ;
    font-family: Arial, Helvetica, sans-serif;
 }
 
 .escola-texto-1{
     display: flex;
+    align-items: center;
 }
     
 .foto-brasão{
-    width: 100%;
-    
-
+    width: 80%;
 }
 
 .texto-Escola{
+   display: list-item;
    font-size: 140%;
-   margin: 45px 105px;
+   padding: 12px 105px;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
-   text-align: center;
+   text-align: justify;
 
 
 }
@@ -101,6 +101,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .texto-Escola-3{
+    text-align: justify;
     align-items: center;
     padding: 12px 105px;
     font-size: 140%;
@@ -108,6 +109,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .lista-1-texto-3{
+    text-align: justify;
     align-items: center;
     padding: 14px 105px;
     font-size: 140%;
@@ -125,17 +127,22 @@ display: list-item;
     justify-content: space-around;
 }
 
+.foto-pessoas{
+    width: 60%;
+}
+
 .pessoas-funcionarios{
     display: block;
 }
 
 .foto-pessoas{
-    width: 60%;
+    width: 60%; 
 }
 .texto-pessoas{
     color: white;
     font-size: 200%;
     padding: 0px 85px;
+    text-decoration: none;
     
 }
 
@@ -183,6 +190,10 @@ border: solid 4px #FBCA03;
    font-size: 130%;
    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
    color: white; 
+   
+}
+.link{
+    text-decoration: none;
 }
 
 
