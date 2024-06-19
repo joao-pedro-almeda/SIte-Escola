@@ -24,6 +24,27 @@
     font-size: 140%;
 }
 
+.turmas{
+    color: white;
+    font-size: 200%;
+    font-family: Arial;
+    margin: 24px;
+}
+
+.turnos{
+    margin: 0px 20px;
+}
+
+.turmas1{
+    margin: 0px 30px;
+}
+
+.salas{
+    margin: 0px 40px;
+}
+
+
+
 .cabeçalho-imagem{
     width: 20%; 
     }
@@ -44,6 +65,10 @@
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.allestudantes{
+    font-size: 50%;
+}
+
 .todos-estudantes{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -55,6 +80,10 @@
 .estudante-foto{
     width: 70%;
     border: solid 4px #FBCA03;
+}
+
+.brasao{
+margin: 50px 650px;
 }
 
 .rodape{
